@@ -200,19 +200,34 @@ footer {
 
 /*------------------------------------------------------------------*/
 /* Services page: */
+
+.services{
+	padding: 40px 0px;
+	border-bottom: 1px solid black;
+}
+
+.services h1{
+	font-size: 20px;
+}
+
 .box{
 	width: 48%;
 	border: 1px solid black;
 	background: lightgrey;
-	padding: 5px;
+	padding: 30px;
 	margin: 20px 0px;
 	display: flex;
 	flex-direction: column;
 }
 
 .box button{
-	width: 30%;
-	margin: 10px 0px;
+	width: 35%;
+	margin-top: 20px;
+	background: white;
+	border: 1px solid black;
+	padding: 8px;
+	border-radius: 5px;
+	font-size: 12px;
 }
 
 .containerForBoxes{
@@ -228,6 +243,7 @@ footer {
 }
 
 .row1{
+	margin-top: 20px;
 	display: flex;
 }
 
@@ -237,13 +253,24 @@ footer {
 
 .row3{
 	display: flex;
+	margin-bottom: 20px;
+}
+
+ul{
+	padding: 30px 20px;
 }
 
 ul li{
+	padding-bottom: 10px;
 	list-style-type: square; 
 }
 
-.bottom-content img{
-display: inline;
-margin-bottom: 50px;
+.bottom-content{
+display: flex;
+border-top: 1px solid black;
+padding: 30px 0px;
+}
+
+.bottom-content p{
+	width: 90%;
 }
