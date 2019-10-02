@@ -201,6 +201,10 @@ footer {
 /*------------------------------------------------------------------*/
 /* Services page: */
 
+.services-header-img{
+	margin-top: 10px;
+}
+
 .services{
 	padding: 40px 0px;
 	border-bottom: 1px solid black;
